@@ -8,7 +8,7 @@ sr.reveal('.navbar', {
 
 window.sr = ScrollReveal();
 sr.reveal('.txtmedio', {
-  duration: 1000,
+  duration: 2000,
   origin: 'bottom',
   distance: '-100px'
 });
@@ -39,6 +39,20 @@ sr.reveal('.sunset', {
   duration: 2000,
   origin: 'top',
   distance: '-100px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('.cj', {
+  duration: 2000,
+  origin: 'left',
+  distance: '-40px'
+});
+
+window.sr = ScrollReveal();
+sr.reveal('.crash', {
+  duration: 2000,
+  origin: 'right',
+  distance: '-40px'
 });
 
 
